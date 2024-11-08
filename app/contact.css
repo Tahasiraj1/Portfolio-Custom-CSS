@@ -1,0 +1,128 @@
+/* Main container */
+.contact-container {
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  
+  /* Adjust padding for larger screens */
+  @media (min-width: 768px) {
+    .contact-container {
+      padding-left: 18rem;
+      padding-right: 18rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-container {
+      padding-left: 24rem;
+      padding-right: 24rem;
+    }
+  }
+  
+  /* Title Section */
+  .contact-title-container {
+    background-color: #065f46; /* emerald-950 */
+    border-radius: 9999px;
+    text-align: center;
+  }
+  
+  .contact-title {
+    font-weight: bold;
+    font-size: 1.875rem; /* text-3xl */
+    color: #4ade80; /* green-400 */
+    margin-bottom: 2rem;
+    padding: 0.25rem 0;
+  }
+  
+  /* Form Styling */
+  .contact-form {
+    height: 24rem; /* h-96 */
+    background-color: rgba(100, 116, 139, 0.55); /* slate-300 with opacity */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    border: 2px solid #047857; /* emerald-700 */
+    border-radius: 1rem;
+  }
+  
+  .contact-label {
+    margin-top: 1rem;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #ccfbf1; /* emerald-100 */
+  }
+  
+  .contact-button {
+    margin-top: 1rem;
+    width: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    background-color: #065f46; /* emerald-950 */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+  }
+  
+  .contact-button:hover {
+    background-color: #065f46; /* emerald-800 */
+  }
+  
+  .contact-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Follow Me Title */
+  .follow-title-container {
+    background-color: #065f46; /* emerald-950 */
+    border-radius: 9999px;
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .follow-title {
+    font-weight: bold;
+    font-size: 1.875rem; /* text-3xl */
+    color: #4ade80; /* green-400 */
+    padding: 0.25rem 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Social Media Buttons */
+  .social-button {
+    padding: 30px;
+    border-radius: 100%;
+    background: #047857;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .social-icon {
+    color: white;
+    transition: transform 0.3s;
+  }
+  
+  /* Profile Section */
+  .contact-profile {
+    margin-top: 2rem;
+    font-family: monospace;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+  
+  .contact-profile strong {
+    font-weight: bold;
+  }
+  
+  

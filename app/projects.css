@@ -1,0 +1,168 @@
+/* Container padding */
+.project-container {
+    padding: 1.5rem;
+}
+
+/* Outer div styling */
+.outer-div {
+    background-color: #064E3B; /* emerald-950 */
+    border-radius: 9999px;
+    height: 2.5rem; /* h-10 */
+    margin: 1rem; /* m-4 */
+    margin-top: 2rem; /* my-8 */
+}
+
+/* Motion div animation */
+.motion-div {
+    transform: translateX(40px);
+    animation: slide-in 0.5s forwards;
+}
+
+@keyframes slide-in {
+    from { transform: translateX(40px); }
+    to { transform: translateX(0); }
+}
+
+/* Heading */
+.heading {
+    color: #34D399; /* text-green-400 */
+    font-weight: bold;
+    font-size: 1.5rem; /* text-2xl */
+    text-align: center;
+    padding-top: 0.25rem; /* pt-1 */
+    animation: slide-in-from-right 0.3s forwards;
+    transition: transform 0.3s;
+}
+
+@keyframes slide-in-from-right {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+/* Grid layout for responsive project cards */
+.project-grid {
+    display: grid;
+    gap: 1.25rem; /* gap-5 */
+    grid-template-columns: 1fr;
+    animation: slide-in-from-bottom 0.3s forwards;
+    transition: transform 0.3s;
+}
+
+@media (min-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr); /* md:grid-cols-3 */
+    }
+}
+
+@keyframes slide-in-from-bottom {
+    from { transform: translateY(100%); }
+    to { transform: translateY(0); }
+}
+
+/* Project card styling */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05); /* hover:scale-105 */
+}
+
+/* Inner content container */
+.project-content {
+    padding: 1rem; /* p-4 */
+    background-color: rgba(226, 232, 240, 0.7); /* bg-slate-200, bg-opacity-70 */
+    border-radius: 1.5rem; /* rounded-3xl */
+    margin-bottom: 1.25rem; /* mb-5 */
+    transition: box-shadow 0.3s;
+}
+
+.project-content:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); /* hover:shadow-xl */
+}
+
+/* Project title */
+.project-title {
+    font-size: 1.125rem; /* text-lg */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Project image styling */
+.project-image {
+    height: 24rem; /* h-96 */
+    border-radius: 1rem; /* rounded-2xl */
+    object-fit: cover;
+}
+
+/* Project description */
+.project-description {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 1.125rem; /* text-lg */
+    margin-top: 0.5rem; /* mt-2 */
+}
+
+/* Button styling */
+.project-button {
+    background-color: transparent;
+    transition: transform 0.3s;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+}
+
+.project-button:hover {
+    background-color: transparent; /* hover:bg-transparent */
+}
+
+.project-button:active {
+    transform: scale(0.9); /* active:scale-90 */
+}
+
+.project-icon {
+    margin-bottom: 0.75rem; /* mb-3 */
+    color: black;
+    background-color: inherit;
+    transition: color 0.3s;
+}
+
+.project-icon:hover {
+    color: #4B5563; /* hover:text-gray-700 */
+}
+
+
+/* Container to align the button to the right */
+.scroll-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.25rem; /* Equivalent to mb-5 */
+}
+
+/* Button styling */
+.scroll-button {
+    background-color: #07573c; /* emerald-500 */
+    border: none;
+    border-radius: 50%; /* rounded-full */
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scroll-button:hover {
+    background-color: #059669; /* emerald-600 */
+}
+
+/* Icon styling */
+.scroll-button-icon {
+    font-size: 2.5rem; /* Equivalent to size 40 */
+    transition: transform 0.3s;
+}
+
+.scroll-button-icon:active {
+    transform: scale(0.9); /* active:scale-90 */
+}
