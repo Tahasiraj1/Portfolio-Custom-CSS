@@ -23,28 +23,28 @@
   
   /* Title Section */
   .contact-title-container {
-    background-color: #065f46; /* emerald-950 */
+    background-color: #065f46;
     border-radius: 9999px;
     text-align: center;
   }
   
   .contact-title {
     font-weight: bold;
-    font-size: 1.875rem; /* text-3xl */
-    color: #4ade80; /* green-400 */
+    font-size: 1.875rem;
+    color: #4ade80; 
     margin-bottom: 2rem;
     padding: 0.25rem 0;
   }
   
   /* Form Styling */
   .contact-form {
-    height: 24rem; /* h-96 */
-    background-color: rgba(100, 116, 139, 0.55); /* slate-300 with opacity */
+    height: 24rem; 
+    background-color: rgba(100, 116, 139, 0.55); 
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1rem;
-    border: 2px solid #047857; /* emerald-700 */
+    border: 2px solid #047857; 
     border-radius: 1rem;
   }
   
@@ -57,7 +57,7 @@
     margin-top: 0.5rem;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    background-color: #ccfbf1; /* emerald-100 */
+    background-color: #ccfbf1; 
   }
   
   .contact-button {
@@ -67,14 +67,14 @@
     margin-right: auto;
     padding: 0.5rem 1rem;
     border-radius: 9999px;
-    background-color: #065f46; /* emerald-950 */
+    background-color: #065f46; 
     color: white;
     cursor: pointer;
     transition: background-color 0.2s, transform 0.1s;
   }
   
   .contact-button:hover {
-    background-color: #065f46; /* emerald-800 */
+    background-color: #065f46; 
   }
   
   .contact-button:active {
@@ -83,7 +83,7 @@
   
   /* Follow Me Title */
   .follow-title-container {
-    background-color: #065f46; /* emerald-950 */
+    background-color: #065f46; 
     border-radius: 9999px;
     text-align: center;
     margin-top: 2.5rem;
@@ -92,13 +92,13 @@
   
   .follow-title {
     font-weight: bold;
-    font-size: 1.875rem; /* text-3xl */
-    color: #4ade80; /* green-400 */
+    font-size: 1.875rem; 
+    color: #4ade80; 
     padding: 0.25rem 0;
     margin-bottom: 1.5rem;
   }
   
-  /* Social Media Buttons */
+  
   .social-button {
     padding: 30px;
     border-radius: 100%;
